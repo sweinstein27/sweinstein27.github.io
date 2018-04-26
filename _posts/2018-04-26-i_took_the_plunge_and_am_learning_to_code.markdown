@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "**I took the plunge and am learning to code.**"
+title:      "I took the plunge and am learning to code."
 date:       2018-04-26 11:43:03 -0400
 permalink:  i_took_the_plunge_and_am_learning_to_code
 ---
