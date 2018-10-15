@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "To Render or not to Render, that is the Question"
-date:       2018-10-15 16:44:30 +0000
+date:       2018-10-15 12:44:31 -0400
 permalink:  to_render_or_not_to_render_that_is_the_question
 ---
 
