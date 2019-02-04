@@ -8,7 +8,7 @@ permalink:  closures_scope_and_hositing_in_javascript
 
 ## **Hoisting**
 
-In JavaScript, a variable can be used before it has been declared. The reason this works is due to hoisting. Hoisting is JavaScript’s behavior that moves all declarations to the top of the current scope.  Not all variables are hoisted. Variables with *Let* or* Const* are not hoisted. It is important to note that JavaScript only hoists declarations and not initializations. If a variable has been declared before it is used, but not initialized yet, the value of the variable will be undefined.  To avoid bugs, developers should declare all variables at the beginning of every scope. 
+In JavaScript, a variable can be used before it has been declared. The reason this works is due to hoisting. Hoisting is JavaScript’s behavior that moves all declarations to the top of the current scope.  Not all variables are hoisted. Variables with *Let* or *Const* are not hoisted. It is important to note that JavaScript only hoists declarations and not initializations. If a variable has been declared before it is used, but not initialized yet, the value of the variable will be undefined.  To avoid bugs, developers should declare all variables at the beginning of every scope. 
 
 ## **Scope**
 
