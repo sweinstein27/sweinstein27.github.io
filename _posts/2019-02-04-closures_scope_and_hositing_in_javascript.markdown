@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Closures, Scope and Hositing in JavaScript"
-date:       2019-02-04 17:15:48 +0000
+date:       2019-02-04 12:15:49 -0500
 permalink:  closures_scope_and_hositing_in_javascript
 ---
 
@@ -31,7 +31,7 @@ One of the most exciting features of ES6 was the introduction of arrow functions
 
 Accessing variables outside of its immediate lexical scope creates a closure. A closure is formed when a nested function is defined inside of another function, allowing access to the outer function’s variables. Returning the nested function allows you to maintain access to the local variables, arguments, and inner function declarations of its outer function. An example looks like the following:
 
-# ![](http://dmitriilin.com/wp-content/uploads/2018/05/use-closures-for-custom-js-variables-in-GTM-closure-min.jpghttp://)
+ ![](http://dmitriilin.com/wp-content/uploads/2018/05/use-closures-for-custom-js-variables-in-GTM-closure-min.jpghttp://)
  
 
 
