@@ -15,7 +15,7 @@ A browser is not able to read certain character so they are encoded into a chara
 I was working on an application that allowed a user to search and play a song utilizing the Spotify API. The search results were only coming up for single word searches, while multiple words came back empty. The query looked normal in the debugger, but the response from the API was a 400 error, so something was wrong with the fetch request. In the Spotify API documentation multiple word queries were separated by *%20*. JavaScript has a handy function to achieve this called *encodeUri()*. The function automatically takes your URL and changes it to a browser readable state. 
 I hope this blog will help you next time you need to deal with special characters in your search queries.
 
-You can find the full project: [](https://github.com/sweinstein27/Spotify-2)
+
 
 
 
