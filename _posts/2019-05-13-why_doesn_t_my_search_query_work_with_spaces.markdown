@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Why Doesn’t My Search Query Work with Spaces?"
-date:       2019-05-13 16:51:50 +0000
+date:       2019-05-13 12:51:51 -0400
 permalink:  why_doesn_t_my_search_query_work_with_spaces
 ---
 
@@ -14,6 +14,8 @@ A browser is not able to read certain character so they are encoded into a chara
  
 I was working on an application that allowed a user to search and play a song utilizing the Spotify API. The search results were only coming up for single word searches, while multiple words came back empty. The query looked normal in the debugger, but the response from the API was a 400 error, so something was wrong with the fetch request. In the Spotify API documentation multiple word queries were separated by *%20*. JavaScript has a handy function to achieve this called *encodeUri()*. The function automatically takes your URL and changes it to a browser readable state. 
 I hope this blog will help you next time you need to deal with special characters in your search queries.
+
+You can find the full project: [](https://github.com/sweinstein27/Spotify-2)
 
 
 
